@@ -16,89 +16,220 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Puddles&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/d0afbd3381.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="landing_page.css" />
     <title>NFT Startup</title>
   </head>
   <body>
-    <div class="grid-container">
-      <header>
+    <header class="header">
+      <div class="header-logo">
         <img src="logo.svg" alt="logo" />
-        <div class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </header>
-      <main>
-        <div class="header-content">
-          <div class="header-image">
-            <img
-              class="pink-humanoid"
-              src="graphic.png"
-              alt="pink-humanoid-figure"
-            />
-          </div>
-          <div class="header-text-content">
-            <p>LAUNCHING SOON</p>
-            <h1>An NFT like <br />no other</h1>
-            <p>
-              Don't miss out on the <br />release of our new NFT. Sign <br />
-              up below to receive updates <br />
-              when we go live
-            </p>
-          </div>
-          <button>Sign Up</button>
-        </div>
-        <div class="offer">
-          <div class="offer-content">
-            <h2>Free NFT for early birds</h2>
-            <p>Sign up today and you'll get a free NFT when we launch</p>
+      </div>
+      <div class="header-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="hero-section">
+        <div class="hero-text">
+          <p class="launching-text-color">LAUNCHING SOON</p>
+          <h1>
+            An NFT like <br />
+            no other
+          </h1>
+          <p>
+            Don't miss out on the <br />
+            release of our new NFT. Sign <br />
+            up below to receive updates <br />
+            when we go live.
+          </p>
+          <div class="sign-up-button">
+            <button class="sign-up">Sign Up</button>
           </div>
         </div>
-        <div class="advertisement-auction">
-          <div class="advertisement-auction-logos">
-            <img src="1.svg" alt="first-company-logo" />
-            <img src="2.svg" alt="first-company-logo" />
-            <img src="3.svg" alt="first-company-logo" />
-            <img src="5.svg" alt="first-company-logo" />
-          </div>
-          <div class="advertisement-auction-text">
-            <h2>
-              LE Super Rare <br />
-              Auction
+        <div class="hero-image">
+          <img class="nft-graphic" src="graphic.png" alt="" />
+        </div>
+      </section>
+
+      <section class="promo-banner">
+        <div class="promo-background">
+          <div class="promo-text">
+            <h2 class="promo-header">
+              Free NFT for early <br />
+              birds
             </h2>
-            <p>
-              We have released four limited edition <br />
-              NFTs early which can be bid on via <br />
-              <a href="#">OpenSea</a>
+            <p class="promo-paragraph">
+              Sign up today and you'll get a free <br />
+              NFT when we launch.
             </p>
           </div>
         </div>
-        <div class="launching-soon">
-          <div class="launching-soon-image"></div>
-          <div class="launching-soon-text">
-            <h1>
-              An NFT <br />like no <br />
-              other
-            </h1>
-            <p>
-              Don't miss out on the <br />
-              release of our new <br />
-              NFT. Sign up below <br />
-              to receive updates.
-            </p>
+        <div class="partner-logos">
+          <div class="partner-logo-item">
+            <img src="1.svg" alt="Boom" />
           </div>
-          <button>Sign Up</button>
+          <div class="partner-logo-item">
+            <img src="2.svg" alt="Blimp" />
+          </div>
+          <div class="partner-logo-item">
+            <img src="3.svg" alt="qrco" />
+          </div>
+          <div class="partner-logo-item">
+            <img src="5.svg" alt="Droplet" />
+          </div>
         </div>
-      </main>
-      <footer class="footer">
-        <div>
-          <img src="logo.svg" alt="logo" />
-          <p>Exclusive NFT Collection</p>
+      </section>
+
+      <section class="featured-auction">
+        <div class="auction-title">
+          <h2 class="auction-header">
+            LE Super Rare <br />
+            Auction
+          </h2>
+          <p>
+            We have released four limited edition <br />
+            NFTs early which can be bid on via <br /><a href="#">OpenSea.</a>
+          </p>
         </div>
-        <div class="footer-option-list"></div>
-        C Copyright 2022 NFTlanding
-      </footer>
-    </div>
+        <div class="card-container">
+          <div class="nft-card">
+            <img src="ntf-1.svg" alt="NFT Image" class="nft-image" />
+            <div class="card-content">
+              <div class="card-header">
+                <span class="series-label">GLOOP SERIES</span>
+                <span class="top-bid-label">TOP BID</span>
+              </div>
+              <div class="card-header">
+                <span class="identification-card">Purple Man</span>
+                <span class="price">2.99 ETH</span>
+              </div>
+              <div class="card-header">
+                <span class="id-number">#12983</span>
+                <span class="time-left">1 day left</span>
+              </div>
+            </div>
+          </div>
+          <div class="nft-card">
+            <img src="nft-2.svg" alt="NFT Image" class="nft-image" />
+            <div class="card-content">
+              <div class="card-header">
+                <span class="series-label">GLOOP SERIES</span>
+                <span class="top-bid-label">TOP BID</span>
+              </div>
+              <div class="card-header">
+                <span class="identification-card">Beige</span>
+                <span class="price">2.99 ETH</span>
+              </div>
+              <div class="card-header">
+                <span class="id-number">#12983</span>
+                <span class="time-left">1 day left</span>
+              </div>
+            </div>
+          </div>
+          <div class="nft-card" id="third">
+            <img src="ntf-3.svg" alt="NFT Image" class="nft-image" />
+            <div class="card-content">
+              <div class="card-header">
+                <span class="series-label">GLOOP SERIES</span>
+                <span class="top-bid-label">TOP BID</span>
+              </div>
+              <div class="card-header">
+                <span class="identification-card">Red Man</span>
+                <span class="price">2.99 ETH</span>
+              </div>
+              <div class="card-header">
+                <span class="id-number">#12983</span>
+                <span class="time-left">1 day left</span>
+              </div>
+            </div>
+          </div>
+          <div class="nft-card" id="fourth">
+            <img src="ntf-4.svg" alt="NFT Image" class="nft-image" />
+            <div class="card-content">
+              <div class="card-header">
+                <span class="series-label">GLOOP SERIES</span>
+                <span class="top-bid-label">TOP BID</span>
+              </div>
+              <div class="card-header">
+                <span class="identification-card">Green</span>
+                <span class="price">2.99 ETH</span>
+              </div>
+              <div class="card-header">
+                <span class="id-number">#12983</span>
+                <span class="time-left">1 day left</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-section">
+        <div class="intro-content">
+          <p class="intro-launching-text">LAUNCHING SOON</p>
+          <h1>
+            An NFT<br />like no <br />
+            other
+          </h1>
+          <p>
+            Don't miss out on the release of our new NFT.<br />
+            Sign up below to receive updates.
+          </p>
+          <div class="intro-sign-up-button">
+            <button class="intro-sign-up">Sign Up</button>
+          </div>
+        </div>
+        <div class="intro-image">
+          <img src="upsell-footer-image.svg" alt="NFT Character" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-logo">
+        <img src="logo.svg" alt="NFT Landing logo" />
+        <p>Exclusive NFT Collection</p>
+      </div>
+
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4>ABOUT</h4>
+          <a href="#">About</a>
+          <a href="#">Terms</a>
+          <a href="#">Legal</a>
+        </div>
+        <div class="footer-column">
+          <h4>NFT</h4>
+          <a href="#">OpenSea</a>
+          <a href="#">Maker</a>
+          <a href="#">Learn</a>
+        </div>
+        <div class="footer-column">
+          <h4>CONTACT</h4>
+          <a href="#">Press</a>
+          <a href="#">Support</a>
+        </div>
+        <div class="footer-column">
+          <h4>SOCIAL</h4>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+
+      <div class="footer-copyright">&copy; Copyright 2022 NFTlanding</div>
+    </footer>
   </body>
 </html>
